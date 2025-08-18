@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boda Camila & José</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+  <section class="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-[url('static/img/matrimonio-1.jpg')] md:bg-contain">
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+    <div class="relative z-10 flex flex-col items-center text-center text-white px-4">
+      <div class="mb-4">
+        <img src="static/svg/ramita_floral.svg" alt="Logo de la boda" class="w-28 mb-2 mx-auto">
+        <p class="text-4xl font-light" style="font-family: 'Dancing Script'">¡Nos casamos!</p>
+      </div>
+      <h1 class="text-4xl md:text-5xl font-serif tracking-widest mb-2">Camila &amp; José</h1>
+      <p class="text-lg md:text-xl font-thin max-w-xl">Con mucha felicidad, te invitamos a ser parte de este gran día...</p>
+    </div>
+  </section>
+
+  <!-- Nueva sección: Invitación y Nuestra Historia -->
+  <section class="relative bg-white py-16 px-4 md:px-0">
+    <div class="absolute left-0 flex justify-between items-start mb-8 w-screen h-full z-10 pointer-events-none">
+        <img src="static/img/left-flowers.png" alt="" class="hidden lg:block w-48 -ml-16 select-none pointer-events-none" aria-hidden="true"/>
+        <img src="static/img/right-flowers.png" alt="" class="hidden lg:block w-48 -ml-16 mt-auto select-none pointer-events-none" aria-hidden="true"/>
+    </div>
+
+    <div class="max-w-5xl mx-auto flex flex-col items-center">
+      <!-- Icono de anillos y fecha -->
+      <div class="flex flex-col items-center mb-10">
+        <img src="static/svg/ramita_floral.svg" alt="ramita_floral" class="w-20 mb-4 bg-black/60 rounded" />
+        <p class="text-gray-700 tracking-widest text-lg mb-2">TE ESPERAMOS EL DÍA</p>
+        <div class="flex items-center space-x-6">
+          <span class="text-3xl lg:text-4xl text-yellow-800 font-light tracking-widest">Sabado 15 de noviembre de 2025</span>
+          <span class="text-2xl text-gray-400">|</span>
+          <span class="text-3xl lg:text-4xl text-yellow-800 font-light tracking-widest">19:00 hrs.</span>
+        </div>
+      </div>
+      <!-- Historia -->
+      <div class="w-full flex flex-col lg:flex-row items-center lg:items-start justify-center gap-8">
+        <!-- Decoración izquierda -->
+        <!-- Imagen circular -->
+         <div class="relative z-10">
+            <div class="grid grid-cols-8">
+                <img src="static/img/nuestros-inicios-1.jpg" alt="Nuestra historia" class="col-span-6 col-start-2 w-auto md:w-[360px] object-cover rounded-t-full shadow-lg border-4 border-white"/>
+            </div>
+    
+            <div class="grid grid-cols-8 w-full absolute bottom-0">
+                <img src="static/img/left-flowers.png" alt="" class="col-span-2 col-start-7 block lg:hidden h-auto mt-auto select-none pointer-events-none" aria-hidden="true"/>
+            </div>
+         </div>
+        <!-- Texto historia -->
+        <div class="max-w-lg text-center md:text-left">
+          <h2 class="text-4xl font-script text-yellow-800 mb-4" style="font-family: 'Dancing Script', cursive;">Nuestra historia</h2>
+          <p class="text-gray-700 mb-2">
+            Comienza a la corta edad de 16 años, ella un mujer mayor por 24 días.
+          </p>
+          <p class="text-gray-700 mb-2">
+            Nos conocimos de la forma más loca e irresponsable 😱. Todo comenzo con 
+            un match por <b>TINDEEER</b> 🔥🔥🔥.
+          </p>
+          <p class="text-gray-700 mb-2">
+            El día que nos conocimos ambos teniamos mucho miedo, no sabiamos si realmente nos encontraríamos con la persona detras de la pantalla 📱, el 👨🏻‍💼 dice: 
+            <i class="text-sm">"fue un alivio cuando la vi, era muchisimo más hermosa que en las fotos"</i>. Mientras ella 👩🏻 pensaba <i class="text-sm">"que bueno que realmente es el, que alivio que mis amigos me estan cuidando y que era tan guapo como en las fotos."</i>
+          </p>
+          <p class="text-gray-700">
+            Desde esa primera cita un 28 de agosto de 2015 no dejamos de pensar el uno en el otro y nuestro amor y compromiso por la relación crecio y crecio, proyectandonos 
+            desde pequeños a un futuro juntos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!-- Sección Lugar y Frase -->
+  <section class="relative py-20 px-4 md:px-0">
+    <div class="max-w-3xl mx-auto flex flex-col items-center text-center ">
+        <div class="absolute top-0 flex justify-between items-center mb-8 w-screen h-full">
+            <img src="static/img/left-flowers.png" alt="" class="hidden lg:block w-64 -ml-16 select-none pointer-events-none" aria-hidden="true"/>
+            <div></div>
+            <img src="static/img/right-flowers.png" alt="" class="block lg:hidden w-36 -ml-16 mb-auto -mt-5 select-none pointer-events-none" aria-hidden="true"/>
+        </div>
+        <!-- Icono lugar y título -->
+        <div class="flex flex-col items-center mb-8">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-14 h-14 text-green-900 mb-2" fill="none" viewBox="0 0 48 48" stroke="currentColor">
+            <circle cx="24" cy="20" r="5" stroke="currentColor" stroke-width="2" fill="none"/>
+            <path d="M24 44C24 44 40 28.36 40 20C40 11.16 32.84 4 24 4C15.16 4 8 11.16 8 20C8 28.36 24 44 24 44Z" stroke="currentColor" stroke-width="2" fill="none"/>
+            </svg>
+            <span class="text-4xl mb-2" style="font-family: 'Dancing Script', cursive; color: #b89b6a;">Lugar</span>
+        </div>
+        <h3 class="text-yellow-800 text-xl md:text-2xl font-semibold tracking-[0.3em] mb-1">Casona de la Laguna</h3>
+        <p class="text-gray-700 mb-4">📍 Camino Chicureo 13.000, Piedra Roja, Colina, Santiago.</p>
+        <div class="flex flex-col md:flex-row justify-center mb-4 z-50">
+            <a href="https://maps.app.goo.gl/1TyDrSKCLfWZQKTP9" target="_blank" class="inline-block bg-yellow-800 hover:bg-yellow-700 text-white font-semibold rounded-full px-6 py-2 mb-4 transition md:mr-2 h-min">
+                Abrir en Google Maps <span class="ml-2">📍</span>
+            </a>
+            <a href="https://waze.com/ul/h66jf8v8dp" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full px-6 py-2 mb-10 transition md:ml-2 h-min">
+                Abrir en Waze <span class="ml-2">🚗</span>
+            </a>
+        </div>
+        <!-- Frase -->
+        <div class="flex flex-col items-center mb-8">
+            <img src="static/img/corazon.png" alt="" class="w-28 mb-4"/>
+            <p class="text-3xl md:text-4xl" style="font-family: 'Dancing Script', cursive; color: #b89b6a;">
+            Si sabemos lo que es el amor,<br>
+            es porque lo encontramos.
+            </p>
+        </div>
+        <!-- Mapa -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.4848279685766!2d-70.6332700236547!3d-33.279976988803334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662b82f77c61d33%3A0xe524fbf2ae72610!2sCasona%20de%20la%20Laguna!5e0!3m2!1sen!2scl!4v1755477883252!5m2!1sen!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-xl z-50"></iframe>
+    </div>
+  </section>
+  <hr>
+  <!-- Sección Itinerario y Countdown -->
+  <section class="relative bg-white py-20 px-4 md:px-0">
+    <div class="absolute left-0 flex justify-between items-start mb-8 w-screen h-full z-10">
+        <img src="static/img/left-flowers.png" alt="" class="lg:block w-36 -ml-16 mt-48 lg:mt-0 select-none pointer-events-none" aria-hidden="true"/>
+        <img src="static/img/right-flowers.png" alt="" class="lg:block w-48 -ml-16 mt-auto select-none pointer-events-none" aria-hidden="true"/>
+    </div>
+    <div class="max-w-5xl mx-auto flex flex-col items-center">
+      <!-- Countdown -->
+      <h2 class="text-5xl md:text-6xl mb-8 text-center" style="font-family: 'Dancing Script', cursive; color: #4d5c4a;">
+        Prepárate para<br>el gran día
+      </h2>
+      <div id="countdown" class="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-16">
+        <div class="flex flex-col items-center">
+          <span class="text-4xl md:text-5xl font-light text-yellow-800" id="days">00</span>
+          <span class="text-lg text-yellow-800">días</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-4xl md:text-5xl font-light text-yellow-800" id="hours">00</span>
+          <span class="text-lg text-yellow-800">horas</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-4xl md:text-5xl font-light text-yellow-800" id="minutes">00</span>
+          <span class="text-lg text-yellow-800">minutos</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-4xl md:text-5xl font-light text-yellow-800" id="seconds">00</span>
+          <span class="text-lg text-yellow-800">segundos</span>
+        </div>
+      </div>
+      <!-- Itinerario -->
+      <h3 class="text-4xl mb-10" style="font-family: 'Dancing Script', cursive; color: #4d5c4a;">Itinerario</h3>
+      <div class="relative w-full">
+
+        <!-- Línea horizontal para desktop -->
+        <div class="hidden md:block absolute left-0 right-0 top-1/2 h-[1px] bg-yellow-800/40 z-0" style="transform: translateY(-50%);"></div>
+        <!-- Línea vertical para mobile -->
+        <div class="block md:hidden absolute top-0 bottom-0 left-[30%] w-[1px] bg-yellow-800/40 z-0" style="transform: translateX(-50%);"></div>
+
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-8 w-full justify-items-center relative z-10">
+          <!-- Citación -->
+          <div class="flex flex-col items-center bg-white p-2 border rounded-lg hover:shadow">
+            <img src="static/img/itinerario-citacion.png" alt="Citación" class="w-20 h-20 mb-2 object-cover">
+            <span class="text-gray-700 font-light tracking-widest">CITACIÓN</span>
+            <span class="text-gray-700 font-bold">18:30 HRS.</span>
+          </div>
+          <!-- Ceremonia -->
+          <div class="flex flex-col items-center bg-white p-2 border rounded-lg hover:shadow">
+            <img src="static/img/itinerario-ceremonia.png" alt="Ceremonia" class="w-20 h-20 mb-2 object-cover">
+            <span class="text-gray-700 font-light tracking-widest">CEREMONIA</span>
+            <span class="text-gray-700 font-bold">19:00 HRS.</span>
+          </div>
+          <!-- Cóctel -->
+          <div class="flex flex-col items-center bg-white p-2 border rounded-lg hover:shadow">
+            <img src="static/img/itinerario-coctel.png" alt="Cóctel" class="w-20 h-20 mb-2 object-cover">
+            <span class="text-gray-700 font-light tracking-widest">CÓCTEL</span>
+            <span class="text-gray-700 font-bold">20:00 HRS.</span>
+          </div>
+          <!-- Cena -->
+          <div class="flex flex-col items-center bg-white p-2 border rounded-lg hover:shadow">
+            <img src="static/img/itinerario-cena.png" alt="Cena" class="h-20 mb-2 object-cover">
+            <span class="text-gray-700 font-light tracking-widest">CENA</span>
+            <span class="text-gray-700 font-bold">21:00 HRS.</span>
+          </div>
+          <!-- Fiesta -->
+          <div class="flex flex-col items-center bg-white p-2 border rounded-lg hover:shadow">
+            <img src="static/img/itinerario-fiesta.png" alt="Fiesta" class="w-20 h-20 mb-2 object-cover">
+            <span class="text-gray-700 font-light tracking-widest">FIESTA</span>
+            <span class="text-gray-700 font-bold">23:00 HRS.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Sección Confirmación de Asistencia (Google Forms) -->
+  <section class="bg-[#566655] py-20 px-4 md:px-0">
+    <div class="grid grid-cols-4 gap-4 w-full pointer-events-none max-w-2xl mx-auto mb-12">
+        <img src="" id="random-pic-1" alt="" class="rounded-lg aspect-square object-cover" aria-hidden="true"/>
+        <img src="" id="random-pic-2" alt="" class="rounded-lg aspect-square object-cover" aria-hidden="true"/>
+        <img src="" id="random-pic-3" alt="" class="rounded-lg aspect-square object-cover" aria-hidden="true"/>
+        <img src="" id="random-pic-4" alt="" class="rounded-lg aspect-square object-cover" aria-hidden="true"/>
+        <img src="" id="random-pic-5" alt="" class="rounded-lg aspect-square object-cover" aria-hidden="true"/>
+        <img src="" id="random-pic-6" alt="" class="rounded-lg aspect-square object-cover" aria-hidden="true"/>
+        <img src="" id="random-pic-7" alt="" class="rounded-lg aspect-square object-cover" aria-hidden="true"/>
+        <img src="" id="random-pic-8" alt="" class="rounded-lg aspect-square object-cover" aria-hidden="true"/>
+    </div>
+    <div class="max-w-3xl mx-auto flex flex-col items-center text-center">
+      <h2 class="text-4xl md:text-5xl mb-4 text-white" style="font-family: 'Dancing Script', cursive;">Confirma tu asistencia</h2>
+      <p class="text-white mb-8 text-lg max-w-xl">Rellena el siguiente formulario individualmente por cada persona que asistirá a la ceremonia.</p>
+      <div class="w-full flex justify-center">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc9ad8RywJrmXcdLjOLe1PkZUeYuM6G5L0mKTMPbopVh4nIjA/viewform?embedded=true" width="100%" height="1500" frameborder="0" marginheight="0" marginwidth="0" class="rounded-b-lg bg-white/40 shadow-lg max-w-2xl w-full">Cargando…</iframe>
+      </div>
+      <div class="mt-10 text-white text-base max-w-lg mx-auto">
+        <div class="flex flex-col items-center">
+            <img src="static/svg/ramita_floral.svg" alt="Logo de la boda" class="w-28 mb-2 mx-auto">
+            <p>Recuerda organizarte con tiempo para que no pierdas ningún momento de esta ceremonia tan especial para nosotros.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Sección Dress Code y Lista de Novios -->
+  <section class="relative bg-white py-24 px-4 md:px-0 overflow-hidden">
+    <div class="absolute left-0 flex justify-between items-start mb-8 w-screen h-full z-10">
+        <img src="static/img/left-flowers.png" alt="" class="lg:block w-36 -ml-16 mt-48 lg:mt-0 select-none pointer-events-none" aria-hidden="true"/>
+        <img src="static/img/right-flowers.png" alt="" class="lg:block w-48 -ml-16 mt-auto select-none pointer-events-none" aria-hidden="true"/>
+    </div>
+    
+    <div class="max-w-5xl mx-auto flex flex-col items-center text-center mb-16">
+        <h2 class="text-6xl mb-4" style="font-family: 'Dancing Script', cursive; color: #566655;">Debés saber</h2>
+        <p class="text-[#566655] text-xl mb-8 max-w-2xl">A continuación te dejamos las indicaciones de vestimenta y la lista de regalos a nuestro matrimonio.</p>
+    </div>
+
+    <div class="relative z-10 max-w-6xl mx-auto flex flex-col md:flex-row gap-8 justify-center items-stretch">
+
+        <!-- Dress Code -->
+        <div class="flex-1 bg-[#4d5c4a] rounded-[48px] flex flex-col items-center px-8 py-12 min-w-[320px] max-w-xl mx-auto">
+            <img src="static/svg/dresscode.svg" alt="Dress code" class="w-24 h-24 mb-4"/>
+            <h3 class="text-white text-2xl tracking-[0.3em] mb-4 font-serif">DRESS CODE</h3>
+            <p class="text-white text-lg font-serif">
+                <p class="text-white text-lg font-serif mb-2">✨ Queremos que todos luzcan bien en nuestro gran día ✨</p>
+                <p class="text-white text-lg font-serif text-left mr-auto"> El código de vestimenta es formal.</p>
+                <ul class="list-disc list-inside text-white text-lg font-serif text-left mb-4">
+                    <li class="text-white text-lg font-serif text-left">🧔🏻‍♂️Hombres con traje.</li>
+                    <li class="text-white text-lg font-serif text-left">👩🏻Mujeres con vestido, corto o largo, ¡como se sientan más cómodas!</li>
+                </ul>
+                <p class="text-white text-lg font-serif text-left">
+                    Les pedimos evitar el tono blanco (y sus derivados) ya que estara reservado para la novia  👰🏻‍♀️💕. Y agradeceríamos evitar el uso de color verde esmeralda debido a que sera el color distintivo de nuestras damas de honor. 💚
+                </p>                
+            </p>
+        </div>
+        <!-- Lista de Novios / Gracias -->
+        <div class="flex-1 bg-[#4d5c4a] rounded-[48px] flex flex-col items-center text-center px-8 py-12 min-w-[320px] max-w-xl mx-auto">
+            <img src="static/svg/regalo.svg" alt="Gift" class="w-24 h-24 mb-4"/>
+            <h3 class="text-white text-2xl tracking-[0.3em] mb-4 font-serif">¡GRACIAS!</h3>
+            <p class="text-white text-lg font-serif mb-8">
+            Si quieres tener un detalle con nosotros, puedes hacerlo en nuestra lista de Novios Paris N° 18472449 haciendo click en el siguiente botón.
+            </p>
+            <a href="https://club.noviosparis.cl/home/couple-catalog/18472449" target="_blank" class="inline-flex items-center bg-[#b89b6a] hover:bg-[#a88a4a] text-white text-lg font-medium rounded-full px-8 py-2 transition">
+            Ir a novios Paris
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+            </a>
+        </div>
+    </div>
+  </section>
+  
+  <!-- Sección Sé nuestro DJ -->
+  <section class="relative bg-white py-24 px-4 md:px-0 overflow-hidden">
+
+    <div class="relative z-10 flex flex-col items-center text-center">
+      <h2 class="text-6xl mb-4" style="font-family: 'Dancing Script', cursive; color: #566655;">Sé nuestro Dj</h2>
+      <p class="text-[#566655] text-xl mb-8 max-w-2xl">Motívate y agrega los hits que no pueden faltar en el carrete con esta Playlist colaborativa de Spotify. ¡A bailar! 🕺💃</p>
+      <a href="https://open.spotify.com/playlist/0mHStmjDJ6SwKlAcHQHZfJ?si=TAEgmtFNSf6LCvgdNIvMRQ" target="_blank" class="inline-flex items-center bg-[#1DB954] hover:bg-[#159c3f] text-white text-lg font-medium rounded-full px-8 py-2 transition mb-8">
+        Ir a la Playlist
+        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+      <!-- Playlist embebida -->
+      <div class="w-full flex justify-center">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0mHStmjDJ6SwKlAcHQHZfJ?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="max-w-2xl w-full"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Botón flotante Spotify -->
+  <button id="spotify-float-btn" class="fixed bottom-6 right-6 bg-[#1DB954] hover:bg-[#159c3f] text-white rounded-full w-16 h-16 flex items-center justify-center shadow-lg transition z-50" style="box-shadow: 0 4px 24px rgba(30,185,84,0.2);">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" fill="#1DB954"/>
+      <path d="M8 15c2.5-1 5.5-1 8 0M7 12c3-1.5 7-1.5 10 0M6 9c3.5-2 8.5-2 12 0" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    </svg>
+  </button>
+  <div id="spotify-player-float" class="fixed bottom-28 right-6 z-50 hidden">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7Ewz6bJ97vUqk5HdkvguFQ?utm_source=generator" width="320" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+
+  <!-- Texto escucha la canción (abajo derecha, primera sección) -->
+  <div class="fixed bottom-6 right-24 z-50 flex flex-col items-end">
+    <span class="bg-black/70 text-white text-base md:text-xl rounded-xl px-4 py-2 mb-2 shadow-lg font-light" style="backdrop-filter: blur(2px); font-family: 'Dancing Script', cursive;">Escucha la canción que bailaremos en la fiesta 💕</span>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
